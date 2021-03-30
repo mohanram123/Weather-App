@@ -1,0 +1,21 @@
+
+<mat-card class="example-card">
+<mat-card-header>
+  <div mat-card-avatar class="example-header-image">
+    <img mat-card-image src={{url}}>
+  </div>
+  <mat-card-title>{{city}}</mat-card-title>
+  <mat-card-subtitle>{{weather}}</mat-card-subtitle>
+</mat-card-header>
+<mat-card-content class="space">
+  <h2 class = "three-icons"><fa-icon [icon]="faThermometerHalf"></fa-icon>&nbsp;{{temp}}&#8451;&nbsp;<fa-icon [icon]="faThermometerQuarter"></fa-icon>&nbsp;{{min}}&#8451;&nbsp;<fa-icon [icon]="faThermometerFull"></fa-icon>&nbsp;{{max}}&#8451;</h2>
+  <h2>Humidity {{humidity}}<fa-icon [icon]="faPercentage"></fa-icon></h2>
+  <h2>Wind {{wind}}m/s</h2>
+</mat-card-content>
+<h2 class="space">
+    <fa-icon [icon]="faCloudSunRain"></fa-icon>&nbsp;
+    <fa-icon [icon]="faCloudMoon"></fa-icon>&nbsp;
+    <fa-icon [icon]="faCloudMeatball"></fa-icon>&nbsp;
+    <fa-icon [icon]="faCloudMoonRain"></fa-icon>&nbsp;
+</h2>
+</mat-card>

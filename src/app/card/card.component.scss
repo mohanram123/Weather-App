@@ -1,0 +1,24 @@
+.example-card {
+    margin: 24px;
+    display: inline-flexbox;
+    width: 320px;
+    max-height: 500px;
+    min-height: 280px;
+  }
+  
+  .example-header-image {
+    background-size: cover;
+  }
+
+.space {
+  word-spacing: 10px;
+}
+
+.three-icons {
+  display: flex;
+
+  .fa-icon.ng-fa-icon {
+    flex: 1;
+    justify-content: center;
+  }
+}
